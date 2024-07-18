@@ -65,8 +65,10 @@
         }
 
 table {
-    width: 40%;
+    width: 100%;
     border-collapse: collapse;
+    word-break: break-all;
+    table-layout: fixed;
 }
 
 table, th, td {
